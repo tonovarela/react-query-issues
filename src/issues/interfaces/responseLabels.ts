@@ -7,6 +7,6 @@ export interface Labels {
     name:        string;
     color:       string;
     default:     boolean;
-    description: string;
+    description?: string;
 }
 
