@@ -12,7 +12,7 @@ import { useQuery } from '@tanstack/react-query';
 
 
 export const useIssues = ()=>{
-    const issuesQuery = useQuery(['issues'],getIssues);
+    const issuesQuery = useQuery(['issues'],getIssues);    
     return {
         issuesQuery
     }
